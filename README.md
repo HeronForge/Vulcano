@@ -1,5 +1,7 @@
 # VULCANO
 
+*Testbench dev. advisor*
+
 A tool for people who develop electronic test machines (the same audience DEDALO writes
 specifications for): it starts from a specification and produces preventivi (quotes) and — the
 scope is still being defined — other outputs a test-machine developer needs from that starting
