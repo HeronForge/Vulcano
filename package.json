@@ -1,0 +1,20 @@
+{
+  "name": "vulcano",
+  "version": "0.5.0",
+  "description": "Testbench dev. advisor: from a DEDALO test specification to a quoted, understood, technically settled test bench — in a single self-contained HTML file",
+  "license": "MIT",
+  "author": "D. Tracchi",
+  "contributors": [
+    "Claude (Anthropic) — development assistant"
+  ],
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "test": "node --test test/*.test.js",
+    "snapshot": "node build/build.mjs && node build/snapshot.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

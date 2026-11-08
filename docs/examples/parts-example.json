@@ -1,0 +1,85 @@
+{
+  "format": "vulcano-parts/1",
+  "name": "Example parts",
+  "currency": "EUR",
+  "parts": [
+    {
+      "id": "prt_probe_13",
+      "name": "Spring probe Ø 1.3 mm, wired, with receptacle",
+      "kind": "probe",
+      "matches": "Ø 1.3, 1.3 mm, spring probe",
+      "current": 3,
+      "resistance": 0.03,
+      "life": 1000000,
+      "channels": null,
+      "image": "probe-13.jpg",
+      "price": 12,
+      "notes": ""
+    },
+    {
+      "id": "prt_clip_4",
+      "name": "Insulated 4 mm safety clip, 1000 V CAT II",
+      "kind": "clip",
+      "matches": "4 mm, clip, banana",
+      "current": 20,
+      "resistance": 0.005,
+      "life": 10000,
+      "channels": null,
+      "image": "",
+      "price": 18,
+      "notes": ""
+    },
+    {
+      "id": "prt_type2",
+      "name": "Type 2 test-grade plug with cable",
+      "kind": "connector",
+      "matches": "type 2, socket, simulator cable",
+      "current": 32,
+      "resistance": 0.01,
+      "life": 10000,
+      "channels": null,
+      "image": "",
+      "price": 260,
+      "notes": "Wears: cycle life is the maintenance interval."
+    },
+    {
+      "id": "prt_cyl",
+      "name": "Pneumatic cylinder with valve and end sensors",
+      "kind": "actuator",
+      "matches": "press, push, present, mate",
+      "current": 0,
+      "resistance": 0,
+      "life": 1000000,
+      "channels": null,
+      "image": "",
+      "price": 620,
+      "notes": ""
+    },
+    {
+      "id": "prt_relay",
+      "name": "Relay channel on the interface board",
+      "kind": "relay",
+      "matches": "",
+      "current": 2,
+      "resistance": 0.1,
+      "life": 10000000,
+      "channels": 1,
+      "image": "",
+      "price": 22,
+      "notes": "One per point when an instrument is routed."
+    },
+    {
+      "id": "prt_relay_card",
+      "name": "Relay multiplexer card, 16 channels, 2-wire",
+      "kind": "relay",
+      "matches": "",
+      "current": 2,
+      "resistance": 0.1,
+      "life": 10000000,
+      "channels": 16,
+      "image": "",
+      "price": 680,
+      "notes": "One card routes one instrument over up to 16 points."
+    }
+  ]
+}

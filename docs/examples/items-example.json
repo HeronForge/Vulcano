@@ -1,0 +1,52 @@
+{
+  "format": "vulcano-items/1",
+  "name": "Example standard items and services",
+  "currency": "EUR",
+  "items": [
+    {
+      "id": "itm_cabinet",
+      "name": "Bench frame and cabinet, standard",
+      "kind": "bench",
+      "unit": "set",
+      "image": "cabinet.jpg",
+      "price": 4500,
+      "notes": ""
+    },
+    {
+      "id": "itm_safety",
+      "name": "Safety circuit: interlocked guard, safety relay, e-stop",
+      "kind": "safety",
+      "unit": "set",
+      "image": "",
+      "price": 1400,
+      "notes": ""
+    },
+    {
+      "id": "itm_fixture_pneumatic",
+      "name": "Pneumatic bed-of-nails fixture, interlocked",
+      "kind": "fixture",
+      "unit": "pc",
+      "image": "",
+      "price": 9500,
+      "notes": ""
+    },
+    {
+      "id": "itm_docs",
+      "name": "Documentation set",
+      "kind": "service",
+      "unit": "set",
+      "image": "",
+      "price": 2600,
+      "notes": ""
+    },
+    {
+      "id": "itm_fat",
+      "name": "Factory and site acceptance tests",
+      "kind": "service",
+      "unit": "day",
+      "image": "",
+      "price": 650,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VULCANO — Testbench dev. advisor</title>
+<meta name="description" content="From a DEDALO test specification to a quoted, understood test bench — one self-contained HTML file that carries its own database and project.">
+<style>
+  :root { --bg: #f6f7f9; --panel: #fff; --ink: #1f2429; --muted: #6b7480; --line: #e1e5ea; --accent: #b23a1e; --link: #1b5aa6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151a20; --panel: #1d242c; --ink: #e8ecf0; --muted: #98a3af; --line: #2c3540; --accent: #e0674a; --link: #7ab4f0; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.6 "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; color: var(--ink); background: var(--bg); }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 64px; }
+  h1 { font-size: 34px; letter-spacing: .04em; margin: 0; }
+  .tag { color: var(--muted); margin: 2px 0 28px; }
+  .lead { font-size: 18px; }
+  .cta { display: inline-block; margin: 8px 0 4px; padding: 11px 20px; border-radius: 6px; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
+  .cta:hover { filter: brightness(1.08); }
+  .note { color: var(--muted); font-size: 14px; margin: 4px 0 32px; }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 32px 0 8px; }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 6px; }
+  a { color: var(--link); }
+  footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>VULCANO</h1>
+  <p class="tag">Testbench dev. advisor</p>
+
+  <p class="lead">For people who develop electronic test machines. VULCANO reads a test specification written in <a href="https://heronforge.github.io/Dedalo/">DEDALO</a>, turns it into what the bench needs — one slot per resource, contact, physical action, software effort and bench item — and lets you assign to each slot what realises it, from a database you own. The quote is the sum of your assignments.</p>
+
+  <a class="cta" href="vulcano.html">Open VULCANO</a>
+  <p class="note">One HTML file, no install, no account. It works offline and saves itself: use <b>💾 Save</b> to download a copy that carries your database and your project.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads the DEDALO document itself, or its data export.</li>
+    <li>Helps you choose with a ranking and its reasons — nothing is assigned for you.</li>
+    <li>Prices the bench from your own instruments, parts, rates and standard items.</li>
+    <li>Raises the questions the specification leaves open, for you to take or leave.</li>
+    <li>Exports the offer to Word and PDF, with your company and your client on it.</li>
+  </ul>
+
+  <h2>Already have a copy?</h2>
+  <p>In VULCANO, <b>File ▸ Check for updates…</b> asks this site which build is the latest and, if there is a newer one, gives you a new file with your database and project already inside it. Your current file is never touched, and nothing is ever checked unless you ask.</p>
+
+  <footer>
+    <a href="https://github.com/HeronForge/Vulcano">Source and documentation on GitHub</a> · MIT licence · Part of the HeronForge family, with <a href="https://heronforge.github.io/Dedalo/">DEDALO</a>.
+  </footer>
+</main>
+</body>
+</html>

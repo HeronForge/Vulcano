@@ -1,0 +1,43 @@
+{
+  "format": "vulcano-ratecard/1",
+  "name": "Example rates",
+  "currency": "EUR",
+  "rates": [
+    {
+      "id": "rat_hardware",
+      "label": "Hardware engineering",
+      "unit": "h",
+      "price": 75
+    },
+    {
+      "id": "rat_software",
+      "label": "Software engineering",
+      "unit": "h",
+      "price": 80
+    },
+    {
+      "id": "rat_mechanical",
+      "label": "Mechanical engineering",
+      "unit": "h",
+      "price": 70
+    },
+    {
+      "id": "rat_test",
+      "label": "Test engineering",
+      "unit": "h",
+      "price": 65
+    },
+    {
+      "id": "rat_management",
+      "label": "Project management",
+      "unit": "h",
+      "price": 90
+    },
+    {
+      "id": "rat_onsite",
+      "label": "Engineer on site",
+      "unit": "day",
+      "price": 650
+    }
+  ]
+}

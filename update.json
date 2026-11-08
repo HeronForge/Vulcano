@@ -1,0 +1,10 @@
+{
+  "version": "0.5.0",
+  "date": "2026-11-08",
+  "changes": [
+    "File ▸ Check for updates… asks the project’s page which build is the latest and, if there is a newer one, hands you a new file with your database and project already written into it. It asks only when you choose it — nothing is ever checked on its own — and the only thing kept is the date of the last check.",
+    "The file you are using is never touched: the update is a new file, named for its version, so the old one stays in the folder until you have opened the new one and seen your work in it. Unsaved changes are settled first (Save first), and a quiet «Updates unchecked» appears in the status row once the last check is 90 days old."
+  ],
+  "app": "https://heronforge.github.io/Vulcano/vulcano.html",
+  "page": "https://github.com/HeronForge/Vulcano"
+}

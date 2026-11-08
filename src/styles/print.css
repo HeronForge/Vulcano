@@ -1,0 +1,18 @@
+/* Print: the current tool as a document — no rail, no bars, no buttons. */
+@media print {
+  @page { size: A4; margin: 15mm 14mm; }
+  body { background: #fff; font-size: 11px; }
+  #app, .app, .workspace { display: block; height: auto; }
+  .toolbar, .sidebar, .nav-scrim, .modal-scrim, .crumbs, .statusbar, .page-actions, button, .no-print, .drop, .filters, .picker-row, tr.extra.tools { display: none !important; }
+  .main { overflow: visible; padding: 0; }
+  .table-wrap { max-height: none; overflow: visible; border: none; }
+  .table-wrap table { width: 100%; }
+  th { position: static; }
+  table { page-break-inside: auto; }
+  tr { page-break-inside: avoid; }
+  .card { break-inside: avoid; border: none; padding: 0; margin-bottom: 10px; }
+  .print-only { display: block; }
+  details { display: block; }
+  details > summary { display: none; }
+  a { color: inherit; }
+}

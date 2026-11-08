@@ -1,0 +1,47 @@
+{
+  "format": "vulcano-kb/1",
+  "name": "Example extension",
+  "notes": "Declarative rules and checklist items added to the built-in knowledge base. Ids that match a built-in item replace it.",
+  "rules": [
+    {
+      "id": "X-RULE-01",
+      "title": "Stage with no description",
+      "category": "incompleteness",
+      "severity": "info",
+      "rationale": "A stage the reader cannot place is a stage nobody prices right.",
+      "blocks": [
+        "statement of work"
+      ],
+      "when": {
+        "entity": "stage",
+        "field": "description",
+        "op": "missing"
+      },
+      "message": "{{label}} has no description.",
+      "question": "What is the purpose of {{label}}?",
+      "added": "2026-09-19"
+    }
+  ],
+  "checklists": [
+    {
+      "id": "X-CL-01",
+      "discipline": "bench",
+      "situation": "A temperature-related variable exists",
+      "title": "Temperature chamber or ambient monitoring for {{name}}",
+      "why": "A temperature the limits depend on is either controlled or recorded.",
+      "trigger": {
+        "entity": "variable",
+        "field": "unit",
+        "op": "contains",
+        "value": [
+          "°C"
+        ]
+      },
+      "source": {
+        "kind": "experience",
+        "ref": "our benches",
+        "added": "2026-09-19"
+      }
+    }
+  ]
+}
